@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Navbar and Video Banner</title>
+  <link rel="stylesheet" href="mbcStyle.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-logo">
+      <img src="mbcLogo.png" alt="Midwest Badminton Club" class="logo">
+    </div>
+     <div class="navbar-item">
+        <a href="mbcHome.html">Home</a>
+    </div>
+    <div class="navbar-item" onclick="toggleDropdown('dropdown2')">Locations
+      <div class="dropdown" i`d="dropdown2">
+        <a href="woodridge.html">Woodridge</a>
+        <a href="naperville.html">Naperville</a>
+        <a href="buffalo.html">Buffalo Grove</a>
+      </div>
+    </div>
+    <div class="navbar-item" onclick="toggleDropdown('dropdown3')">Membership
+      <div class="dropdown" id="dropdown3">
+        <a href="#">Join</a>
+        <a href="#">Benefits</a>
+      </div>
+    </div>
+    <div class="navbar-item" onclick="toggleDropdown('dropdown4')">Events & News</div>
+    <div class="navbar-item" onclick="toggleDropdown('dropdown6')">Training/Camps
+      <div class="dropdown" id="dropdown6">
+        <a href="#">Summer Camp</a>
+        <a href="#">Team Training</a>
+        <a href="#">Private Training</a>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Video Banner -->
+  <div class="banner">
+    <video autoplay muted loop playsinline class="video-banner">
+      <source src="baddie.MOV" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="banner-overlay">
+      <div class="banner-text">
+        <h1>COACHING</h1>
+        <p>Team Training & Private Training</p>
+        <h2>OPEN GYM</h2>
+        <p>Members & Walk In</p>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- Club Life Section -->
+    <section class="club-life">
+      <h2>Club Life</h2>
+      <div class="grid-container">
+        <div class="grid-item">
+          <img src="court.jpg" alt="Court">
+          <h3>Training</h3>
+          <p>Look at training schedules for each location.</p>
+          <button>Book Now</button>
+        </div>
+        <div class="grid-item">
+          <img src="membership.jpg" alt="Membership">
+          <h3>Membership</h3>
+          <p>Become a member and have access to all our benefits!.</p>
+          <button>Learn More</button>
+        </div>
+        <div class="grid-item">
+          <img src="club_events.jpg" alt="Club Events">
+          <h3>Club Events</h3>
+          <p> Events and tournaments to meet fellow badminton players!</p>
+          <button>View Events</button>
+        </div> 
+      </div>
+    </section>
+
+    <!-- AS Seen on TV -->
+  <section class="tv">
+    <h2>As seen on TV</h2>
+    <div class="grid-container">
+      <div class="grid-item">
+        <img src="group_training.jpg" alt="Group Training">
+        <h3>Group Lessons</h3>
+        <p>We offer lessons for beginners and advanced players.</p>
+        <button>Join Lessons</button>
+      </div>
+      <div class="grid-item">
+        <img src="summer_camp.jpg" alt="Summer Camp">
+        <h3>Seasonal Camps</h3>
+        <p>Train during summer camps with our experienced coaches.</p>
+        <button>Learn More</button>
+      </div>
+      <div class="grid-item">
+        <img src="junior_tournament.jpg" alt="Junior Tournament">
+        <h3>Junior Tournaments</h3>
+        <p>Compete in regional and national-level tournaments.</p>
+        <button>Sign Up</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

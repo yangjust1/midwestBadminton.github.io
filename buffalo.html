@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Navbar and Video Banner</title>
+  <link rel="stylesheet" href="mbcStyle.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-logo">
+      <img src="mbcLogo.png" alt="Midwest Badminton Club" class="logo">
+    </div>
+    <div class="navbar-item">
+        <a href="mbcHome.html">Home</a>
+    </div>
+    <div class="navbar-item" onclick="toggleDropdown('dropdown2')">Locations
+      <div class="dropdown" id="dropdown2">
+        <a href="woodridge.html">Woodridge</a>
+        <a href="naperville.html">Naperville</a>
+        <a href="buffalo.html">Buffalo Grove</a>
+      </div>
+    </div>
+    <div class="navbar-item" onclick="toggleDropdown('dropdown3')">Membership
+      <div class="dropdown" id="dropdown3">
+        <a href="#">Join</a>
+        <a href="#">Benefits</a>
+      </div>
+    </div>
+    <div class="navbar-item" onclick="toggleDropdown('dropdown4')">Events & News</div>
+    <div class="navbar-item" onclick="toggleDropdown('dropdown6')">Training/Camps
+      <div class="dropdown" id="dropdown6">
+        <a href="#">Summer Camp</a>
+        <a href="#">Team Training</a>
+        <a href="#">Private Training</a>
+      </div>
+    </div>
+  </div>
+git ad
