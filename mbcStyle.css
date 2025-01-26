@@ -187,7 +187,7 @@
   }
 }
 
-/* Club Life & TV Section */
+/* Club Life & Lessons Section */
 section {
   padding: 50px 20px;
   background-color: #f9f9f9;
@@ -216,7 +216,10 @@ section h2 {
 }
 
 .grid-item img {
-  width: 100%;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 70%;
   height: auto;
 }
 
