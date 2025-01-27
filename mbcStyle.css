@@ -187,7 +187,7 @@
   }
 }
 
-/* Club Life & Lessons Section */
+/* Club Life & As seen on TV Section */
 section {
   padding: 50px 20px;
   background-color: #f9f9f9;
@@ -221,6 +221,14 @@ section h2 {
   padding-right: 10%;
   width: 70%;
   height: auto;
+}
+
+.grid-item iframe {
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 70%;
+  height: 90;
 }
 
 .grid-item h3 {
